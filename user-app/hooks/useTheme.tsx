@@ -30,21 +30,21 @@ export interface ColorScheme {
 }
 
 const lightColors: ColorScheme = {
-  bg: "#f8fafc",
-  surface: "#ffffff",
+  bg: "#c3def8",
+  surface: "#c3def8",
   text: "#1e293b",
   textMuted: "#64748b",
-  border: "#e2e8f0",
+  border: "#c3def8",
   primary: "#3b82f6",
   success: "#10b981",
   warning: "#f59e0b",
   danger: "#ef4444",
   shadow: "#000000",
   gradients: {
-    background: ["#f8fafc", "#e2e8f0"],
+    background: ["rgb(122, 187, 247)", "#e2e8f0"],
     surface: ["#ffffff", "#f8fafc"],
     primary: ["#3b82f6", "#1d4ed8"],
-    success: ["#10b981", "#059669"],
+    success: ["#127252", "#059669"],
     warning: ["#f59e0b", "#d97706"],
     danger: ["#ef4444", "#dc2626"],
     muted: ["#9ca3af", "#6b7280"],
